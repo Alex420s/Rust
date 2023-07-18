@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section  {
+    background-color: turquoise;
+}
+
+h1 {
+    color: rgb(32, 6, 81);
+    font-family: sans-serif;
+}
+
+.section-title {
+    color: #276824;
+}
+
+#rectangle {
+    background-color: #276824;
+    display: block;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    
+
+}
+.circle {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 190px;
+    z-index: -1;
+}

@@ -1,0 +1,28 @@
+@media (max-width: 480px){
+    #test-box {
+        width: 200px;
+        height: 350px;
+        background-color: lightsalmon;
+    }
+}
+@media (min-width: 481px) and (max-width: 1200px){
+    #test-box {
+        width: 200px;
+        height: 350px;
+        background-color: powderblue;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1600px){
+    #test-box {
+        width: 200px;
+        height: 350px;
+        background-color: limegreen;
+    }
+}
+@media (min-width: 1601px){
+    #test-box {
+        width: 200px;
+        height: 350px;
+        background-color: seagreen;
+    }
+}
