@@ -1,0 +1,26 @@
+
+.navigation {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+.navigation__title{
+    font-size: 29px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-right: 100px;
+    
+}
+.navigation__container > ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 50px;
+
+}
+.navigation__item > a:link, a:visited, a:active {
+    text-decoration:none;
+    color: rgb(78, 84, 174);
+    font-size: 25px;
+}
